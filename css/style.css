@@ -1,0 +1,105 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #1f2937;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-link a, 
+.header-site{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+.header-site{
+    flex:1;
+}
+.header-link a{
+padding: 7px;
+font-weight: 200;
+}
+
+
+
+.content{
+    background-color: #1f2937;
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content p{
+    flex:  0 0 40%;
+    color: white;
+}
+.content img{
+    flex-grow: 0;
+    width:16rem;
+    height: auto;
+}
+.porsche-info h2{
+    text-align: center;
+}
+.porsche1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+}
+.porsche1 img{
+    width: 12rem;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.porsche-home,
+.porsche-italy,
+.porsche-targa,
+.porsche-front{
+    margin: 1rem;
+}
+
+.substitute{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.substitute p{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.substitute b{
+    color: #1f2937;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 400px;
+    padding-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
